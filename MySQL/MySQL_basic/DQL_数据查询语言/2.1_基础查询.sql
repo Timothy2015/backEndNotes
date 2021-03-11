@@ -106,7 +106,7 @@ select null+10; 只要其中一方为null，则结果肯定为null
 SELECT CONCAT('a','b','c') AS 结果;
 
 SELECT 
-	CONCAT(last_name,first_name) AS 姓名
+	CONCAT(last_name, " ", first_name) AS 姓名
 FROM
 	employees;
 	

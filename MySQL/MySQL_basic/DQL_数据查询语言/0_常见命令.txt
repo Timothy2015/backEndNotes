@@ -1,14 +1,16 @@
-Microsoft Windows [°æ±¾ 6.1.7600]
-°æÈ¨ËùÓÐ (c) 2009 Microsoft Corporation¡£±£ÁôËùÓÐÈ¨Àû¡£
 
-C:\Windows\system32>net stop mysql0815
-MySQL0815 ·þÎñÕýÔÚÍ£Ö¹.
-MySQL0815 ·þÎñÒÑ³É¹¦Í£Ö¹¡£
+## è¿™éƒ¨åˆ†å†…å®¹å‚è€ƒå¹•å¸ƒç¬”è®°ï¼ˆå¹•å¸ƒè®°å½•éžå¸¸è¯¦ç»†ï¼‰
+https://share.mubu.com/doc/3CnbBueHXpD
 
 
-C:\Windows\system32>net start mysql0815
-MySQL0815 ·þÎñÕýÔÚÆô¶¯ .
-MySQL0815 ·þÎñÒÑ¾­Æô¶¯³É¹¦¡£
+C:\Windows\system32>net stop mysql55
+MySQL55 æœåŠ¡æ­£åœ¨åœæ­¢
+MySQL55 æœåŠ¡å·²æˆåŠŸåœæ­¢
+
+
+C:\Windows\system32>net start mysql55
+MySQL55 æœåŠ¡æ­£åœ¨å¯åŠ¨
+MySQL55 æœåŠ¡å·²ç»æˆåŠŸå¯åŠ¨
 
 
 C:\Windows\system32>mysql -h localhost -P 3306 -u root -p
@@ -266,6 +268,3 @@ mysql> select * from stuinfo;
 |    2 | rose |
 +------+------+
 1 row in set (0.00 sec)
-
-mysql> #select * from stuinfo;
-mysql>
