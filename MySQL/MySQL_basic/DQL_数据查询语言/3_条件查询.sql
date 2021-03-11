@@ -9,6 +9,12 @@
 	where
 		筛选条件;
 
+# 执行顺序（与书写顺序不一致，但是逻辑是符合常识）：
+# 1. form 子句，定位到表
+# 2. where 子句，筛选条件
+# 3. select子句，查询列表
+
+
 分类：
 	一、按条件表达式筛选
 	
@@ -64,6 +70,7 @@ FROM
 	employees
 WHERE
 	salary>=10000 AND salary<=20000;
+
 #案例2：查询部门编号不是在90到110之间，或者工资高于15000的员工信息
 SELECT
 	*
@@ -89,18 +96,20 @@ is null|is not null
 	通配符：
 	% 任意多个字符,包含0个字符
 	_ 任意单个字符
-*、
+*/
 
 #案例1：查询员工名中包含字符a的员工信息
 
-select 
+SELECT 
 	*
-from
+FROM
 	employees
-where
-	last_name like '%a%';#abc
+WHERE
+	last_name LIKE '%a%';#abc
+	
+
 #案例2：查询员工名中第三个字符为e，第五个字符为a的员工名和工资
-select
+SELECT
 	last_name,
 	salary
 FROM
@@ -118,6 +127,8 @@ FROM
 	employees
 WHERE
 	last_name LIKE '_$_%' ESCAPE '$';
+
+
 #2.between and
 /*
 ①使用between and 可以提高语句的简洁度
