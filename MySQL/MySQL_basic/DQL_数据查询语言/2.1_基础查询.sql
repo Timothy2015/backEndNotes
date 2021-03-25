@@ -75,7 +75,6 @@ SELECT salary AS "out put" FROM employees;
 
 #8.去重
 
-
 #案例：查询员工表中涉及到的所有的部门编号
 SELECT DISTINCT department_id FROM employees;
 
@@ -83,7 +82,6 @@ SELECT DISTINCT department_id FROM employees;
 #9.+号的作用
 
 /*
-
 java中的+号：
 ①运算符，两个操作数都为数值型
 ②连接符，只要有一个操作数为字符串
