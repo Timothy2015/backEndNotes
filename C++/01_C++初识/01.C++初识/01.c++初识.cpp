@@ -1,5 +1,5 @@
-#include <iostream>  //±ê×¼ÊäÈëÊä³öÁ÷   i - input  ÊäÈë  o - output Êä³ö  stream Á÷  Ïàµ±ÓÚ stdio.h
-using namespace std; //Ê¹ÓÃ  ±ê×¼  ÃüÃû¿Õ¼ä  
+#include <iostream>  //æ ‡å‡†è¾“å…¥è¾“å‡ºæµ   i - input  è¾“å…¥  o - output è¾“å‡º  stream æµ  ç›¸å½“äº stdio.h
+using namespace std; //ä½¿ç”¨  æ ‡å‡†  å‘½åç©ºé—´  
 
 
 //#include <time.h>
@@ -9,14 +9,15 @@ using namespace std; //Ê¹ÓÃ  ±ê×¼  ÃüÃû¿Õ¼ä
 //#include <cmath>
 
 
-//³ÌĞòÈë¿Úº¯Êı
+//ç¨‹åºå…¥å£å‡½æ•°
 int main()
 {
-	// cout  ±ê×¼Êä³öÁ÷¶ÔÏó
-	// << ×óÒÆ  ÔÚC++ÏÂÓĞÁËĞÂµÄÔ¢Òâ  ÓÃÓÚÔÚcoutºóÆ´½ÓÊä³öµÄÄÚÈİ   
-	// endl   --- end line  Ë¢ĞÂ»º³åÇø ²¢ÇÒ»»ĞĞ  
+	// cout  æ ‡å‡†è¾“å‡ºæµå¯¹è±¡
+	// << å·¦ç§»  åœ¨C++ä¸‹æœ‰äº†æ–°çš„å¯“æ„  ç”¨äºåœ¨coutåæ‹¼æ¥è¾“å‡ºçš„å†…å®¹   
+	// endl   --- end line  åˆ·æ–°ç¼“å†²åŒº å¹¶ä¸”æ¢è¡Œ  
 	cout << "hello world"  << endl;
 
-	system("pause");  //×èÈû
-	return EXIT_SUCCESS;  //·µ»ØÕı³£ÍË³ö
+	system("pause");  //é˜»å¡
+	return EXIT_SUCCESS;  //è¿”å›æ­£å¸¸é€€å‡º
 }
+
